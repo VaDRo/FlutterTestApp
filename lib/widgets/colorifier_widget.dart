@@ -28,7 +28,7 @@ class _ColorifierWidgetState extends State<ColorifierWidget> {
           backgroundColor: _color,
       ),
       body:
-        Material(
+        Container(
           color: _color,
           child: TextWidget('Hey there', _changeColor)
         )
